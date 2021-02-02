@@ -1,0 +1,79 @@
+/* Global ==================================================================================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(49, 49, 49);
+}
+
+/* Logo ==================================================================================================================================*/
+
+#logo {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.63);
+    color: rgb(9, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    z-index: 9999;
+}
+
+#logo h1 {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 0rem 20px 0rem 20px;
+}
+
+a {
+    color: rgb(9, 255, 0);
+    text-decoration: none;
+}
+
+/* Conteudo ==================================================================================================================================*/
+
+#img {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+}
+
+#container {
+    border-radius: 20px;
+    color: rgb(9, 255, 0);
+    position: relative;
+    width: fit-content;
+    width: 20rem;
+    top: 10rem;
+    left: 5rem;
+
+    width: min(90vw, 800px);
+}
+
+#historia {
+    position: relative;
+    top: 2rem;
+}
+
+#historia h3 {
+    font-size: 30px;
+}
+
+#historia h4 {
+    font-size: 20px;
+}
